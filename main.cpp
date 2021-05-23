@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "data_structure.hpp"
+#include "merge_sort.hpp"
 
 using namespace std;
 

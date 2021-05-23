@@ -1,0 +1,12 @@
+	timsort
+500	Time elapsed (ns): 400
+1000	Time elapsed (ns): 100
+10000	Time elapsed (ns): 400
+100000	Time elapsed (ns): 400
+500000	Time elapsed (ns): 500
+	merge
+500	Time elapsed (ns): 200
+1000	Time elapsed (ns): 0
+10000	Time elapsed (ns): 100
+100000	Time elapsed (ns): 0
+500000	Time elapsed (ns): 300
