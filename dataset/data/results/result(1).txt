@@ -1,12 +1,12 @@
 	timsort
-500	Time elapsed (ns): 400
-1000	Time elapsed (ns): 200
-10000	Time elapsed (ns): 400
-100000	Time elapsed (ns): 500
-500000	Time elapsed (ns): 500
+500	Time elapsed (ns): 51307
+1000	Time elapsed (ns): 93087
+10000	Time elapsed (ns): 1596262
+100000	Time elapsed (ns): 15635536
+500000	Time elapsed (ns): 121912902
 	merge
-500	Time elapsed (ns): 200
-1000	Time elapsed (ns): 100
-10000	Time elapsed (ns): 100
-100000	Time elapsed (ns): 300
-500000	Time elapsed (ns): 600
+500	Time elapsed (ns): 60091
+1000	Time elapsed (ns): 123282
+10000	Time elapsed (ns): 1663974
+100000	Time elapsed (ns): 28371160
+500000	Time elapsed (ns): 137892186
