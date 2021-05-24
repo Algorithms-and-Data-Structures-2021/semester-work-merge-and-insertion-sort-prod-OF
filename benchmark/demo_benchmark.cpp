@@ -33,17 +33,19 @@ int main() {
         result << amount << "\t";
         ifstream file(path);
         string s;
+        vector<int> intValues_v;
         int intValues[stoi(amount)];
-        int counter = 0;
         for (file >> s; !file.eof(); file >> s) {
-          intValues[counter] = stoi(s);
+          intValues_v.push_back(stoi(s));
         }
-        int n = sizeof(intValues) / sizeof(intValues);
+        copy(intValues_v.begin(),intValues_v.end(),intValues );
+        int n = sizeof(intValues) / sizeof(intValues[0]);
         const auto time_point_before = chrono::steady_clock::now();
         if (!(flag)) {
           TimSort::timSort(intValues, n);
         } else {
           MergeSort::mergeSort(intValues, 0, n - 1);
+
         }
         const auto time_point_after = chrono::steady_clock::now();
         const auto time_diff = time_point_after - time_point_before;
